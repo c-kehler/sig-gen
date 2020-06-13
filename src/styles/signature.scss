@@ -1,0 +1,89 @@
+.sig-card {
+    padding: 10px;
+    background-color: white;
+    box-shadow: inset 0px 1px 3px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.sig-container {
+    display: flex;
+    color: rgb(67, 67, 67);
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+    table {
+        border-collapse: collapse;
+    }
+
+    /* And this to your table's `td` elements. */
+    td {
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+        display: flex;
+    }
+
+    .sig-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 10px;
+        padding: 10px;
+
+        p:not(:last-child) {
+            margin-bottom: 4px;
+        }
+
+        .name {
+            font-weight: 700;
+            font-size: 28px;
+        }
+        .phone {
+            span {
+                margin-right: 3px;
+            }
+        }
+        .divide {
+            border-top: 4px solid black;
+            width: 60px;
+            margin-top: 4px;
+            margin-bottom: 15px;
+        }
+
+        .slogan {
+            letter-spacing: 0;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .email-container {
+            display: flex;
+        }
+    }
+
+    .dt-logo {
+        background-color: rgb(242, 97, 30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 175px;
+        max-width: 175px;
+    }
+
+}
+
+.page-container {
+    width: 100%;
+
+    .rawHtml {
+        height: 200px;
+        width: 300px;
+        overflow-y: scroll;
+        border: 1px gray solid;
+        border-radius: 5px;
+    }
+}

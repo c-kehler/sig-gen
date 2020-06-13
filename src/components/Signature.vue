@@ -15,7 +15,7 @@
           <div class="divide" />
           <p class="slogan">MAKE. PROGRESS. THE FUTURE OF DIGITAL.</p>
           <p class="phone"><span v-if="formData.office">Office: {{formatPhone(formData.office)}} |</span> Mobile: {{formatPhone(formData.mobile)}}</p>
-          <p class="email">{{formData.email}} | domandtom.com</p>
+          <p class="email"><span v-if="formData.email">Office: {{formData.email}} |</span> domandtom.com</p>
         </div>
         </td>
         </tr>

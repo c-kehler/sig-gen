@@ -1,3 +1,5 @@
+
+
 .container {
 	display: flex;
     justify-content: center;
@@ -13,7 +15,12 @@
 		border-radius: 5px;
 		margin-bottom: 20px;
 		margin-top: 30px;
-		margin-right: 20px;
+        margin-right: 20px;
+        
+        .instructions, a {
+            font-family: Avenir;
+        }
+
 	}
 	.sig-form-container {
 		display: flex;
@@ -31,21 +38,21 @@
 		label {
 			margin-right: auto;
 			margin-bottom: 5px;
-			margin-left: 5px;
-			font-family: sans-serif;
+			margin-left: 20px;
+			font-family: Avenir;
 			font-size: 16px;
 			color: #555;
 			text-transform: capitalize;
 			margin-bottom: 5px;
 		}
 		input {
+            font-family: Avenir;
 			width: 90%;
 			margin-bottom: 10px;
 			outline: none;
 			border: none;
 			box-shadow: none;
 			font-size: 14px;
-			font-family: inherit;
 			line-height: 50px;
 			background: #fafafa;
 			box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);

@@ -7,7 +7,7 @@
 
 .sig-container {
     display: flex;
-    color: rgb(67, 67, 67);
+    color: rgb(74, 74, 74);
     font-family: sans-serif;
     margin-bottom: 30px;
 
@@ -31,29 +31,35 @@
         padding: 10px;
 
         p:not(:last-child) {
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }
 
         .name {
             font-weight: 700;
             font-size: 28px;
         }
-        .phone, .email {
+        .email {
             span {
                 margin-right: 3px;
             }
         }
+        .phone {
+            span {
+                margin-left: 3px;
+            }
+        }
         .divide {
-            border-top: 4px solid black;
+            border-top: 4px solid  rgb(67, 67, 67);
             width: 60px;
-            margin-top: 4px;
+            margin-top: 10px;
             margin-bottom: 15px;
         }
 
         .slogan {
-            letter-spacing: 0;
+            letter-spacing: -.5px;
             font-weight: 700;
             font-size: 18px;
+            transform: scale(1, 1.2);
         }
 
         .email-container {
@@ -75,11 +81,4 @@
 .page-container {
     width: 100%;
 
-    .rawHtml {
-        height: 200px;
-        width: 300px;
-        overflow-y: scroll;
-        border: 1px gray solid;
-        border-radius: 5px;
-    }
 }

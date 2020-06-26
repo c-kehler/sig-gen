@@ -32,24 +32,25 @@
         padding: 5px;
 
         p:not(:last-child) {
-            margin-bottom: 4px;
+            margin-bottom: 3px;
         }
 
         .name {
             font-weight: 700;
-            font-size: 18px;
+            font-size: 16px;
+            margin-bottom: 0px !important;
         }
         .position {
-            font-size: 12px;
+            font-size: 11px;
         }
         .email {
-            font-size: 12px;
+            font-size: 11px;
             span {
                 margin-right: 3px;
             }
         }
         .phone {
-            font-size: 12px;
+            font-size: 11px;
             span {
                 margin-left: 3px;
             }
@@ -58,13 +59,13 @@
             border-top: 3px solid  rgb(67, 67, 67);
             width: 50px;
             margin-top: 5px;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
         }
 
         .slogan {
             letter-spacing: -.5px;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 12px;
             transform: scale(1, 1.2);
         }
 
@@ -78,8 +79,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-height: 100px;
-        max-width: 100px;
+        max-height: 85px;
+        max-width: 85px;
     }
 
 }

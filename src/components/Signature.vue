@@ -40,7 +40,6 @@ export default {
     formData: {
       handler(n) {
         this.formDataLocal = n;
-        console.log(JSON.stringify(n));
       },
       immediate: true,
       deep: true
